@@ -11,16 +11,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Home() {
 
   const cardParam = [
-    { img: "/card.png", title: "عنوان 1", desc: "توضیح 1" },
-    { img: "/card.png", title: "عنوان 2", desc: "توضیح 2" },
-    { img: "/card.png", title: "عنوان 3", desc: "توضیح 3" },
-    { img: "/card.png", title: "عنوان 4", desc: "توضیح 4" },
+    { img: "/client1.png", title: "عنوان 1", desc: "توضیح 1" },
+    { img: "/client2.png", title: "عنوان 2", desc: "توضیح 2" },
+    { img: "/client3.png", title: "عنوان 3", desc: "توضیح 3" },
+    { img: "/client4.png", title: "عنوان 4", desc: "توضیح 4" },
   ];
 
   const images = [
-    { id: 1, src: "/download.jfif" },
-    { id: 2, src: "/images (1).jfif" },
-    { id: 3, src: "/images.jfif" },
+    { id: 1, src: "/city.jfif" },
+    { id: 2, src: "/city1.png" },
+    { id: 3, src: "/download.jfif" },
   ];
 
   const [activeId, setActiveId] = useState<number | null>(1);

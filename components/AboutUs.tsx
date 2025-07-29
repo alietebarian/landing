@@ -12,7 +12,7 @@ export default function AboutUs() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex "
-      style={{ backgroundImage: "url('/city.jfif')" }} 
+      style={{ backgroundImage: "url('/city1.png')" }} 
     >
       
       <div className="bg-black/70 w-full md:w-1/3 p-10 text-white flex flex-col justify-between">
