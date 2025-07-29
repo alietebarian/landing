@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div className="p-16 bg-gray-50">
+      <div className="p-8 bg-gray-50">
         <div className="mb-10 text-center">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Localities</h1>
           <p className="text-gray-600 leading-relaxed">
