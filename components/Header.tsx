@@ -17,7 +17,7 @@ export default function Header() {
     const pathName = usePathname()
 
   return (
-    <header className="z-50 mt-8 mb-15 w-[40%] ml-[55%]">
+    <header className="z-50 mb-15 w-[40%] ml-[55%]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center"></div>

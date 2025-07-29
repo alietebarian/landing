@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import { useState } from "react";
+import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function AboutUs() {
@@ -49,16 +50,6 @@ export default function AboutUs() {
     "/client2.png",
     "/client3.png",
     "/client4.png",
-  ];
-
-  const clientData = [
-    {
-      image: "/team1.png",
-      name: "AliEte",
-      title: "software eng",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit similique magni tenetur excepturi sit ut autem fugiat. Sunt, quos dolor."
-    },
-    
   ];
 
   return (
@@ -216,7 +207,7 @@ export default function AboutUs() {
           </div>
         </section>
       </div>
-      <div className="relative w-full h-[500px] md:h-[600px] overflow-hidden group">
+      <div className="relative w-full h-[500px] md:h-[600px]  group">
         <img
           src="/home.jpg"
           alt="Zeal's presence in Indian real estate market"
@@ -232,36 +223,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      {/* client */}
-      <div>
-        <h1 className="text-2xl ml-16 mt-8">Client testimony</h1>
-        <div className="flex items-center justify-center container p-12 bg-gray-50 px-4 ">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl w-full items-center">
-            <Swiper spaceBetween={5} slidesPerView={1.2}>
-              {clientData.map((data, index) => (
-                <SwiperSlide key={index} className="flex justify-between">
-                  <div className="bg-white p-6 rounded-xl shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-300 ease-in-out flex flex-col items-center text-center">
-                    <div className="bg-green-100 p-4 rounded-full mb-4">
-                      <img
-                        src={data.image}
-                        className="w-10 h-10 object-contain"
-                      />
-                    </div>
-                    <h3 className="font-semibold text-gray-800 mb-2">
-                      {data.name}
-                    </h3>
-                    <p className="text-gray-600 text-sm">{data.title}</p>
-                  </div>
-
-                  {/* Description */}
-                  <p className="text-gray-700 leading-relaxed">{data.desc}</p>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </div>
-      </div>
-
+     
       <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           {/* Text Section */}

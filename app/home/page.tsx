@@ -26,8 +26,8 @@ export default function Home() {
   const [activeId, setActiveId] = useState<number | null>(1);
 
   return (
-    <div>
-      <div className="flex  md:flex-row h-[600px] bg-white">
+    <div className="bg-gray-50">
+      <div className="flex  md:flex-row h-[600px]">
         <div className="md:w-1/2 w-full px-12 py-16 flex flex-col justify-center space-y-8">
           <img src="/logo.png" alt="home icon" className="w-16" />
           <h1 className="text-4xl font-extrabold text-gray-800 leading-relaxed">
